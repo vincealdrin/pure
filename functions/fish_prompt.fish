@@ -40,7 +40,7 @@ function fish_prompt
     echo "          "
   end
 
-  set prompt_color (set_color magenta)
+  set prompt_color (set_color green)
   if test $last_status -ne 0
     set prompt_color (set_color red)
   end
